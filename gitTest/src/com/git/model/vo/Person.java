@@ -10,7 +10,8 @@ public class Person {
 	private boolean married;
 
 	private double height;
-	private double weight;
+	private char gender;
+	private int grade;
 
 	
 	public Person() {
@@ -69,19 +70,30 @@ public class Person {
 	public boolean isMarried() {
 		return married;
 	}
-	public double getWeight() {
-		return weight;
 
-	}
 
 	public void setMarried(boolean married) {
 		this.married = married;
 	}
-	public void setWeight(double weight) {
-		this.weight = weight;
 
+	public char getGender() {
+		return gender;
 	}
 
+	public void setGender(char gender) {
+		this.gender = gender;
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+
+	public void setGrade(int grade) {
+		this.grade = grade;
+	}
+
+	
+	
 	
 
 	
